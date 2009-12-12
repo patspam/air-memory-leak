@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+	<id>MemoryLeak</id>
+	<name>MemoryLeak</name>
+	<version>1</version>
+	<filename>MemoryLeak</filename>
+	<initialWindow>
+		<title>MemoryLeak</title>
+		<content>index.html</content>
+		<visible>true</visible>
+    </initialWindow>
+</application>

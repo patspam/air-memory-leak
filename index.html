@@ -1,0 +1,15 @@
+<html>
+<body>
+
+<script>
+function newWindow() {
+	runtime.flash.html.HTMLLoader.createRootWindow().load(new window.runtime.flash.net.URLRequest('other.html'));
+}
+</script>
+
+<input type="button" value="Create new window" onclick="newWindow();"/>
+
+<p>Each time you create a window, memory is consumed - but never reclaimed</p> 
+
+</body>
+</html>
